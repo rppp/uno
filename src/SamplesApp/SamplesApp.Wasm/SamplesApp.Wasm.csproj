@@ -11,6 +11,9 @@
 		<UnoSkipUserControlsInVisualTree>false</UnoSkipUserControlsInVisualTree>
 
 		<IsUiAutomationMappingEnabled>true</IsUiAutomationMappingEnabled>
+		
+		<MonoWasmSDKUri>https://unowasmbootstrap.blob.core.windows.net/runtime/mono-wasm-f5cfc67c8ed.zip</MonoWasmSDKUri>
+		<MonoWasmAOTSDKUri>https://unowasmbootstrap.blob.core.windows.net/runtime/mono-wasm-f5cfc67c8ed.aot.zip</MonoWasmAOTSDKUri>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
