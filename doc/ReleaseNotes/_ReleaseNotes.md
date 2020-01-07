@@ -32,7 +32,7 @@
 - [#2033] Add Missing `LostFocus` Value to `UpdateSourceTrigger` Enum
 - [Android] Fix Image margin calculation on fixed size
 - [iOS] #2361 ListView would measure children with infinite width
-- [WASM] #2408 `IsReadOnly` were not working when set directly in XAML
+- [WASM] #2408 `IsReadOnly` was not working when set directly in XAML
 
 ## Release 2.0
 
