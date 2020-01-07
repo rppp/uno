@@ -32,6 +32,7 @@
 - [#2033] Add Missing `LostFocus` Value to `UpdateSourceTrigger` Enum
 - [Android] Fix Image margin calculation on fixed size
 - [iOS] #2361 ListView would measure children with infinite width
+- [Android] 164249 fixed TextBox.Text flickering when using custom IInputFilter with MaxLength set
 
 ## Release 2.0
 

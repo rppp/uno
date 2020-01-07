@@ -56,6 +56,12 @@ namespace Windows.UI.Xaml.Controls
 				copy.Replace(start, end, tb, tbstart, tbend);
 				var previewText = copy.ToString();
 
+				var coercedText = Owner.CoerceText(previewText);
+				if (coercedText == DependencyProperty.UnsetValue)
+				{
+					return this;
+				}
+
 				var finalText = Owner.ProcessTextInput(previewText);
 
 				if (Owner._wasLastEditModified = previewText != finalText)
