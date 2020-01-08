@@ -16,5 +16,7 @@ namespace SamplesApp.UITests
 
 		// Default active platform when running under Visual Studio test runner
 		public const Platform CurrentPlatform = Platform.Browser;
+		public static string CurrentDirectoryPath = System.IO.Path.GetTempPath();
+
 	}
 }
